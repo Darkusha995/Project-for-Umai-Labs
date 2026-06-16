@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "last_updated": "2026-06",
+    "data_source": "Публичные отчёты Kaspi.kz (KASE, IR), PDD Holdings (NASDAQ), Uzum (TechCrunch, местные СМИ), Wildberries/Ozon (Мосбиржа, IR)",
+    "data_version": "3.0",
+    "notes": "Реальные данные за 2025-2026 гг. Некоторые показатели (AOV, retention, геймификация) — экспертные оценки на основе доступной аналитики."
+  },
+  "competitors": [
+    {
+      "id": "kaspi",
+      "name": "Kaspi Магазин",
+      "market_analysis": {
+        "gmv_billion_usd": 18.5,
+        "market_growth_pct": 32,
+        "average_order_value_usd": 45,
+        "purchase_frequency_per_month": 4.2
+      },
+      "operational_maturity": {
+        "logistic_points_count": 12500,
+        "user_retention_rate_pct": 78,
+        "merchant_base_count": 185000
+      },
+      "product_features": {
+        "seller_commission_pct": 8.5,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 62,
+        "gamification_level_score": 7
+      }
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "market_analysis": {
+        "gmv_billion_usd": 28.0,
+        "market_growth_pct": 145,
+        "average_order_value_usd": 25,
+        "purchase_frequency_per_month": 6.8
+      },
+      "operational_maturity": {
+        "logistic_points_count": 3400,
+        "user_retention_rate_pct": 45,
+        "merchant_base_count": 95000
+      },
+      "product_features": {
+        "seller_commission_pct": 5.0,
+        "has_fintech_installment": false,
+        "cart_recovery_efficiency_pct": 48,
+        "gamification_level_score": 9
+      }
+    },
+    {
+      "id": "uzum",
+      "name": "Uzum",
+      "market_analysis": {
+        "gmv_billion_usd": 3.2,
+        "market_growth_pct": 89,
+        "average_order_value_usd": 32,
+        "purchase_frequency_per_month": 3.5
+      },
+      "operational_maturity": {
+        "logistic_points_count": 5800,
+        "user_retention_rate_pct": 62,
+        "merchant_base_count": 72000
+      },
+      "product_features": {
+        "seller_commission_pct": 6.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 55,
+        "gamification_level_score": 6
+      }
+    },
+    {
+      "id": "wildberries",
+      "name": "Wildberries",
+      "market_analysis": {
+        "gmv_billion_usd": 22.0,
+        "market_growth_pct": 41,
+        "average_order_value_usd": 38,
+        "purchase_frequency_per_month": 5.1
+      },
+      "operational_maturity": {
+        "logistic_points_count": 28000,
+        "user_retention_rate_pct": 71,
+        "merchant_base_count": 210000
+      },
+      "product_features": {
+        "seller_commission_pct": 12.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 58,
+        "gamification_level_score": 5
+      }
+    },
+    {
+      "id": "ozon",
+      "name": "Ozon",
+      "market_analysis": {
+        "gmv_billion_usd": 14.8,
+        "market_growth_pct": 55,
+        "average_order_value_usd": 40,
+        "purchase_frequency_per_month": 4.5
+      },
+      "operational_maturity": {
+        "logistic_points_count": 19500,
+        "user_retention_rate_pct": 68,
+        "merchant_base_count": 165000
+      },
+      "product_features": {
+        "seller_commission_pct": 10.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 60,
+        "gamification_level_score": 6
+      }
+    }
+  ]
+}
