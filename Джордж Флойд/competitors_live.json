@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "last_updated": "2026-06-14T22:20:00.000Z",
+    "data_source": "Umayshop AI Data Ingestion",
+    "data_version": "2.4",
+    "notes": "Базовые данные конкурентов. Обновляются через parse.js или AI-апдейт."
+  },
+  "umayshop": {
+    "id": "umayshop",
+    "name": "Umayshop",
+    "market_analysis": {
+      "gmv_billion_usd": 0.85,
+      "market_growth_pct": 67,
+      "average_order_value_usd": 28,
+      "purchase_frequency_per_month": 2.8
+    },
+    "operational_maturity": {
+      "logistic_points_count": 1200,
+      "user_retention_rate_pct": 55,
+      "merchant_base_count": 28000
+    },
+    "product_features": {
+      "seller_commission_pct": 4.5,
+      "has_fintech_installment": true,
+      "cart_recovery_efficiency_pct": 52,
+      "gamification_level_score": 8
+    }
+  },
+  "competitors": [
+    {
+      "id": "kaspi",
+      "name": "Kaspi Магазин",
+      "market_analysis": {
+        "gmv_billion_usd": 12.5,
+        "market_growth_pct": 35,
+        "average_order_value_usd": 40,
+        "purchase_frequency_per_month": 5.5
+      },
+      "operational_maturity": {
+        "logistic_points_count": 8500,
+        "user_retention_rate_pct": 88,
+        "merchant_base_count": 950000
+      },
+      "product_features": {
+        "seller_commission_pct": 9.5,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 45,
+        "gamification_level_score": 4
+      }
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "market_analysis": {
+        "gmv_billion_usd": 18.0,
+        "market_growth_pct": 60,
+        "average_order_value_usd": 18,
+        "purchase_frequency_per_month": 3.2
+      },
+      "operational_maturity": {
+        "logistic_points_count": 1200,
+        "user_retention_rate_pct": 28,
+        "merchant_base_count": 150000
+      },
+      "product_features": {
+        "seller_commission_pct": 3.0,
+        "has_fintech_installment": false,
+        "cart_recovery_efficiency_pct": 75,
+        "gamification_level_score": 10
+      }
+    },
+    {
+      "id": "uzum",
+      "name": "Uzum Market",
+      "market_analysis": {
+        "gmv_billion_usd": 1.2,
+        "market_growth_pct": 75,
+        "average_order_value_usd": 22,
+        "purchase_frequency_per_month": 4.1
+      },
+      "operational_maturity": {
+        "logistic_points_count": 600,
+        "user_retention_rate_pct": 62,
+        "merchant_base_count": 55000
+      },
+      "product_features": {
+        "seller_commission_pct": 7.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 50,
+        "gamification_level_score": 5
+      }
+    },
+    {
+      "id": "wildberries",
+      "name": "Wildberries",
+      "market_analysis": {
+        "gmv_billion_usd": 38.0,
+        "market_growth_pct": 45,
+        "average_order_value_usd": 25,
+        "purchase_frequency_per_month": 4.8
+      },
+      "operational_maturity": {
+        "logistic_points_count": 45000,
+        "user_retention_rate_pct": 76,
+        "merchant_base_count": 1200000
+      },
+      "product_features": {
+        "seller_commission_pct": 14.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 55,
+        "gamification_level_score": 3
+      }
+    },
+    {
+      "id": "ozon",
+      "name": "Ozon",
+      "market_analysis": {
+        "gmv_billion_usd": 28.5,
+        "market_growth_pct": 65,
+        "average_order_value_usd": 32,
+        "purchase_frequency_per_month": 5.2
+      },
+      "operational_maturity": {
+        "logistic_points_count": 50000,
+        "user_retention_rate_pct": 82,
+        "merchant_base_count": 550000
+      },
+      "product_features": {
+        "seller_commission_pct": 12.0,
+        "has_fintech_installment": true,
+        "cart_recovery_efficiency_pct": 60,
+        "gamification_level_score": 6
+      }
+    }
+  ]
+}
